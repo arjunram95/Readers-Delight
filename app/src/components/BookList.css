@@ -1,0 +1,21 @@
+
+.book-list {
+  display: flex;
+  flex-direction: row;
+ 
+  flex-wrap: wrap;
+  gap: 15px; /* Adjust as needed for spacing between BookCard components */
+  justify-content: space-evenly;
+}
+
+.book-card {
+  flex: 0 0 calc(33.3333% - 15px); 
+  max-width: calc(33.3333% - 15px);
+}
+
+@media (max-width: 767px) {
+  .book-card {
+    flex: 0 0 calc(50% - 15px); 
+    max-width: calc(50% - 15px);
+  }
+}

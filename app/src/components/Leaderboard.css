@@ -1,0 +1,51 @@
+/* Leaderboard.css */
+
+.leaderboard {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: #398378 1px solid;
+    border-radius: 10px;
+  }
+  
+ .leaderboard > *{
+    padding: 5px;
+ } 
+  .leaderboard h2 {
+    color: red;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .leaderboard table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leaderboard th,
+  .leaderboard td {
+    padding: 8px;
+    border: 1px solid #ddd; /* Border color */
+    text-align: left;
+  }
+  
+  .leaderboard th {
+    background-color: #f2f2f2; /* Header background color */
+  }
+  
+  .leaderboard tr:nth-child(even) {
+    background-color: #f9f9f9; /* Even row background color */
+  }
+  
+  .leaderboard tr:hover {
+    background-color: #f5f5f5; /* Hover row background color */
+  }
+  
+  .leaderboard a {
+    color: #333; /* Adjust link color */
+    text-decoration: none;
+  }
+  
+  .leaderboard a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  

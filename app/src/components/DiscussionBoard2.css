@@ -1,0 +1,51 @@
+/* .dashboard-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    gap: 20px; 
+    min-width: 90vw;
+    min-height: 90vh; 
+  } */
+  
+  .dashboard-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Three columns, first and third take up 1 fraction, second takes up 2 fractions */
+    gap: 20px; /* Gap between grid items */
+  }
+  
+  .book-details,
+  .posts-column,
+  .add-post {
+    padding: 20px; /* Add padding to each column */
+  }
+  
+  .book-details {
+    background-color: #f0f0f0; /* Background color for book details column */
+  }
+  
+  .posts-column {
+    background-color: #ffffff; /* Background color for posts column */
+  }
+  
+  .add-post {
+    background-color: #f0f0f0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 5rem;
+    /* Background color for add post column */
+  }
+  
+  /* Style for the content inside each column */
+  .book-details h1 {
+    margin-bottom: 20px;
+  }
+  
+  .add-post img{
+    width: 20rem;
+    align-self: center;
+    margin-bottom: 5rem;
+  }
+  
+  .bookmark-btn{
+    margin-bottom: 5rem;
+  }

@@ -1,0 +1,85 @@
+
+
+.card-container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  width: 300px;
+  margin: 2rem;
+  border: 1px solid #398378;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+ 
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.card-img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  object-position: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-content {
+  padding: 15px;
+  text-align: center; /* Center text within the content */
+}
+
+/* .card-title {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  color: #424769;
+} */
+
+.card-title {
+  font-size: 1.4em;   
+ 
+  margin-bottom: 10px;
+  color: #A2416B;         /* Set the desired text color */
+  text-align: center;     /* Center the text horizontally */
+  font-weight: 400;
+  
+        /* Set the font weight to bold if desired */
+  text-transform: uppercase; /* Convert text to uppercase if desired */
+  /* Other styling options */
+}
+
+.card-author {
+  font-style: italic;
+  margin-bottom: 3px;
+  font-size: 1.1em;
+  color: #555;
+}
+
+.card-published {
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: #777;
+}
+
+.card-btn {
+  background-color: #424769;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 3px;
+}
+
+.card-btn:hover{
+  background-color: blue;
+}
+
+
+
+
+
+

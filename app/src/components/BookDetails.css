@@ -1,0 +1,35 @@
+.BookDetails {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .BookDetails h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .BookDetails img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .BookDetails p {
+    margin-bottom: 10px;
+  }
+  
+  .BookDetails a {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .BookDetails a:hover {
+    text-decoration: underline;
+  }
+  
+  /* You can add more styles as needed */
+  

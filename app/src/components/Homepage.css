@@ -1,0 +1,24 @@
+.books-display h3{
+    color: #398378;
+  }
+  .books-display p{
+    font-size: 20px;
+    margin-top: 2rem;
+    color: #398378; 
+    
+  }
+  
+  .books-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 80vw;
+  }
+
+  .homepage-details {
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+  }
