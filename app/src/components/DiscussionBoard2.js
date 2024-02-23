@@ -134,7 +134,7 @@ const DiscussionBoard = () => {
 
         <div className="add-post">
           <img
-            src={require("../assets/readers-delight-high-resolution-logo.png")}
+            src="/assets/readers-delight-high-resolution-logo.png"
             alt="brand-logo"
           />
           <p>Do you want to add this Discussion Board to your bookmark ? </p>

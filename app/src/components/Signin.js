@@ -64,7 +64,7 @@ const Signin = () => {
     <>
       <section className="intro">
         <img
-          src={require("../assets/readers-delight-high-resolution-logo.png")}
+          src="/assets/readers-delight-high-resolution-logo.png"
           alt="brand-logo"
         />
         <p>
