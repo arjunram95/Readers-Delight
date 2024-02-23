@@ -27,7 +27,7 @@ Deployment Links:
 
 ---
 
-**Note:** Please be advised that the backend server hosted on Render.com may occasionally experience a brief delay during startup.  Your patience during this brief period is greatly appreciated.
+**Note:** Please be advised that the backend server hosted on Render.com may occasionally experience a brief delay during startup to initialize. The signin and signup functionality may take up to two or three minutes (for the first time only) in worst case scenario.  Your patience during this brief period is greatly appreciated.
 
 ---
 
